@@ -1,0 +1,141 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 70px 20px;
+  height: 100%;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Book Search*/
+input[type=searchbook] {
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px
+}
+
+input[type=searchbook]:focus {
+  background-color: #ddd;
+  outline: none; 
+}
+
+
+
+/* Search book at home page*/
+input[type=textbook] {
+  margin: 5px 0 22px 0;
+  border: none;
+  background: red;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  width: 5px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+  font-size: 25px;
+}
+
+
+/* Book information */
+input[type=sub] {
+  width: 200px;
+  height: 80px;
+  padding: 5px;
+  margin: 550px 550px 30px 30px;
+  border: none;
+  background: #48c9B0;
+  text-align: center;
+  font-size: 25px
+}
+
+input[type=sub]:focus {
+  background-color: #ddd;
+  outline: none; 
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.button {
+  background-color: #F4D03F;
+  border: none;
+  position: fixed;
+  width: 220px;
+  height: 90px;
+  padding: 5px;
+  margin-left: 750px;
+  margin-top: -120px;
+  font-size: 25px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 3px solid #ffdab9;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+#Home {background-color: #D0D3D4;}
+#Book_information {background-color: #D0D3D4;}
+#Ranking {background-color: #FFFFFF;}
+#User_part {background-color: #D0D3D4;}
